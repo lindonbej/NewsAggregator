@@ -1,0 +1,84 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+form, .newsBlock {
+    margin: 20px;
+}
+
+.title, .author, .description, .image {
+    margin: 5px;
+}
+
+.headfoot {
+    padding: 10px;
+    background-color: #FF0000;
+}
+
+h2 {
+    padding: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #0000FF;
+}
+
+.image {
+    width: 300px;
+}
+
+#searchSubmit {
+    margin: 10px;
+}
+
+/* Narrow Desktop Styles */ 
+@media only screen and (min-width: 801px) and (max-width: 1000px) {
+    #mainInfo {
+        display: flex;
+    }
+
+    #cityInfo {
+        margin: 0px;
+        margin-left: 30px;
+    }
+    
+    #forecastList {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Medium Desktop Styles */
+@media only screen and (min-width: 1001px) and (max-width: 1500px) {
+    #mainInfo {
+        display: flex;
+    }
+
+    #cityInfo {
+        margin: 0px;
+        margin-left: 30px;
+    }
+    
+    #forecastList {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+/* Large Wide Desktop Sytles */
+@media only screen and (min-width: 1501px) {
+    #mainInfo {
+        display: flex;
+    }
+
+    #cityInfo {
+        margin: 0px;
+        margin-left: 30px;
+    }
+    
+    #forecastList {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
